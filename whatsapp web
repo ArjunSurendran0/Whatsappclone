@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhatsApp Web</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container " style="padding-bottom: 30px;">
+        <div class="header ">
+            <div class="wapp">
+                <div><img style="height:40px; width: 40px; float: left; margin-top: -11px;
+                margin-left: -48px;" src="image/WhatsApp.svg.webp" alt=""></div> WHATSAPP WEB
+            </div>
+            <div class="content ">
+                <div class="content2">
+                    <div class="typing">
+                        <div class="headi">To use WhatsApp on your computer
+                            <ol>
+                                <li style="    font-size: 18px;
+                                line-height: 28px;
+                                color: var(--gray-700); line-height: 50px;">Open WhatsApp on your device</li>
+                                <li style="    font-size: 18px;
+                                line-height: 28px;
+                                color: var(--gray-700); line-height: 50px;">Tap Menu or Settings and Select Linked
+                                    Devices</li>
+                                <li style="    font-size: 18px;
+                                line-height: 28px;
+                                color: var(--gray-700); line-height: 50px;">Point your phone to this screen to capture
+                                    the code</li>
+                            </ol>
+                        </div>
+
+
+                        <div><img src="image/qr.png" class="image" alt=""></div>
+
+                    </div>
+                    <div class="qrcode"></div>
+                </div>
+                <div style="margin-top: 14px;"> <a class="link" href="#">Need help to get started?</a></div>
+                <div style=" height:100px;"></div>
+                <div style="margin-left: 120px;"><iframe width="560" height="315"
+                        src="https://www.youtube.com/embed/zzCy6gZAWQk" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe></div>
+            </div>
+
+        </div>
+
+    </div>
+</body>
+
+</html>
